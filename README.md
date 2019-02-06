@@ -57,6 +57,6 @@ curl "http://localhost:8484/holiday/search?countries=US,NO&date=2016-12-26"
 ```
 ### My thought
 
-   I change response because I think both countries should have their own status if it is valid data,Also each country are independent to each other.It's not necessary to be valid at the same time.Finally I change holidays to array because of some date like an example has more than one holiday in the same day.
+   I change response because I think both countries should have their own status if it is valid data, each country are independent.It's not necessary to be valid at the same time.Also I change holidays to array because of some date like an example has more than one holiday in the same day.
 
 
