@@ -34,7 +34,7 @@ Query param<br />
 
 ### Testing
 ```
-curl "http://localhost:8484/holiday/search?countries=US,TH&date=2016-12-26"
+curl "http://localhost:8484/holiday/search?countries=US,NO&date=2016-12-26"
 ```
 ### Response
 ``` JSON
