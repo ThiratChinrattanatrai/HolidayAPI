@@ -25,13 +25,21 @@ java -Dapi.holiday.key=$YOUR_API_KEY -jar HolidayAPI-1.0.0.jar
 ```
 ### Specification
 GET Method /holiday/search<br />
-Query param<br />
-    1. countries<br /> 
-        country code separated by "," maximum countries = 2<br />
-        Check available country at https://holidayapi.com<br />
-    2. date<br />
-        date for check if any holiday at that day in format yyyy-MM-dd eg. 2016-12-26<br />
-
+Query parameter<br />
+    <ul>
+        <li>countries<br /> 
+            <ul>
+                <li>country code separated by "," </li>
+                <li>maximum countries = 2</li>
+                <li>Check available country at https://holidayapi.com</li>
+            </ul>
+        </li>
+        <li>date<br />
+            <ul>
+                <li>date for check if any holiday at that day in format yyyy-MM-dd eg. 2016-12-26</li>
+            </ul>
+        </li>
+    </ul>
 ### Testing
 ```
 curl "http://localhost:8484/holiday/search?countries=US,NO&date=2016-12-26"
